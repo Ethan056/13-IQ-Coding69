@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyN4JBVyYVjCBFkEv9FA9jRy",
+      "authorship_tag": "ABX9TyNaAqm7gF2xyn2s3PEhxWJH",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,13 +28,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 4,
+      "execution_count": 5,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "zj49KPHMUleV",
-        "outputId": "0a2a9b4d-4bdc-4be6-e5f1-23a644ea35a5"
+        "outputId": "4c2602b8-4d68-47cb-a7a0-9636dfce3f9b"
       },
       "outputs": [
         {
@@ -44,7 +44,7 @@
             "Hello! This is a program specifically design to wake up gamers!\n",
             "\n",
             "What your name, gamer? : Ethan\n",
-            "Yo, Ethan! Ready to play game but tired? No problem!\n",
+            "Yo, Ethan! Want to play game but tired? No problem!\n",
             "\n",
             "Enter the time you want to be wake up! (Minute) : 56\n",
             "Great! Thank you for using our program. We will wake you up while you sleep!\n",
@@ -58,7 +58,7 @@
         "\n",
         "print(\"Hello! This is a program specifically design to wake up gamers!\")\n",
         "YourName = str(input(\"\\nWhat your name, gamer? : \"))\n",
-        "print(\"Yo, \" + YourName + \"!\" + \" Ready to play game but tired? No problem!\")\n",
+        "print(\"Yo, \" + YourName + \"!\" + \" Want to play game but tired? No problem!\")\n",
         "\n",
         "Alarm = float(input(\"\\nEnter the time you want to be wake up! (Minute) : \"))\n",
         "\n",
