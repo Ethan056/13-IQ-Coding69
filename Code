@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN4JBVyYVjCBFkEv9FA9jRy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ethan056/13-IQ-Coding69/blob/main/Code\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zj49KPHMUleV",
+        "outputId": "0a2a9b4d-4bdc-4be6-e5f1-23a644ea35a5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello! This is a program specifically design to wake up gamers!\n",
+            "\n",
+            "What your name, gamer? : Ethan\n",
+            "Yo, Ethan! Ready to play game but tired? No problem!\n",
+            "\n",
+            "Enter the time you want to be wake up! (Minute) : 56\n",
+            "Great! Thank you for using our program. We will wake you up while you sleep!\n",
+            "\n",
+            "This program made by Sinlapachai Nantaphan M.4/4 No.13 Bangbowittayakhom School.\n"
+          ]
+        }
+      ],
+      "source": [
+        "#import time\n",
+        "\n",
+        "print(\"Hello! This is a program specifically design to wake up gamers!\")\n",
+        "YourName = str(input(\"\\nWhat your name, gamer? : \"))\n",
+        "print(\"Yo, \" + YourName + \"!\" + \" Ready to play game but tired? No problem!\")\n",
+        "\n",
+        "Alarm = float(input(\"\\nEnter the time you want to be wake up! (Minute) : \"))\n",
+        "\n",
+        "print(\"Great! Thank you for using our program. We will wake you up while you sleep!\")\n",
+        "#print(\"\\nStarting countdown...\")\n",
+        "\n",
+        "#total_seconds = int(Alarm * 60)\n",
+        "\n",
+        "#for i in range(total_seconds, 0, -1):\n",
+        "\n",
+        "\n",
+        "    #time.sleep(1)\n",
+        "\n",
+        "#print(\"\\n\\n!!! WAKE UP, GAMER !!!\\n\\n\")\n",
+        "\n",
+        "print(\"\\nThis program made by Sinlapachai Nantaphan M.4/4 No.13 Bangbowittayakhom School.\")"
+      ]
+    }
+  ]
+}
